@@ -1,2 +1,2 @@
-# 100 days of devoid
+# 100 days of DevOps
 * **Day 1**
