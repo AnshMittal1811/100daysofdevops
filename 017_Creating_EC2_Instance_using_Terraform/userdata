@@ -1,0 +1,3 @@
+data "template_file" "user-init" {
+  template = "${file("${path.module}/userdata.tpl")}"
+}
