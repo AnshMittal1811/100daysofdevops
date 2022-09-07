@@ -27,33 +27,58 @@
 
 * **Day 14 (08/14/2022)**: How to automate the process of EBS Snapshot creation
 
-* **Day 15 (08/15/2022)**: Introduction to Key Management Service (KMS)
+* **Day 15 (08/15/2022)**: Introduction to Terraform
 
-* **Day 16 (08/16/2022)**: How to encrypt EBS volume using KMS
+* **Day 16 (08/16/2022)**: Building VPC using Terraform
 
-* **Day 17 (08/17/2022)**: How to encrypt S3 bucket using KMS
+* **Day 17 (08/17/2022)**: Creating EC2 Instance using Terraform
 
-* **Day 18 (08/18/2022)**: AWS S3 Bucket using Terraform
+* **Day 18 (08/18/2022)**: Add monitoring to these instances using Terraform (CloudWatch and SNS)
 
-* **Day 19 (08/19/2022)**: Introduction to IAM
+* **Day 19 (08/19/2022)**: Application Load Balancer using Terraform
 
-* **Day 20 (08/20/2022)**: Introduction to VPC Flow Logs
+* **Day 20 (08/20/2022)**: Auto-Scaling Group using Terraform
 
-* **Day 21 (08/21/2022)**: Introduction to RDS - MySQL
+* **Day 21 (08/21/2022)**: MySQL RDS Database Creation using Terraform
 
-* **Day 22 (08/22/2022)**: Introduction to AWS CLI
+* **Day 22 (08/22/2022)**: Introduction to Key Management Service (KMS)
 
-* **Day 23 (08/23/2022)**: Introduction to VPC Peering
+* **Day 23 (08/23/2022)**: How to encrypt EBS volume using KMS
 
-* **Day 24 (08/24/2022)**: Introduction to NAT Gateway
+* **Day 24 (08/24/2022)**: How to encrypt S3 bucket using KMS
 
-* **Day 25 (08/25/2022)**: On Demand Hibernate
+* **Day 25 (08/25/2022)**: AWS S3 Bucket using Terraform
 
-* **Day 26 (08/26/2022)**: AWS S3 Intelligent-Tiering (S3 INT)
+* **Day 26 (08/26/2022)**: Introduction to IAM
 
-* **Day 27 (08/27/2022)**: Introduction to AWS System Manager
+* **Day 27 (08/27/2022)**: Introduction to Packer
 
-* **Day 28 (08/28/2022)**: Automate the Process of AMI Creation using System Manager Maintenance Windows
+* **Day 28 (08/28/2022)**: Introduction to VPC Flow Logs
 
-* **Day 29 (08/29/2022)**: Introduction to Transit Gateway
+* **Day 29 (08/29/2022)**: Introduction to RDS - MySQL
+
+* **Day 30 (08/30/2022)**: Introduction to AWS CLI
+
+* **Day 31 (08/31/2022)**: Introduction to VPC Peering
+
+* **Day 32 (09/01/2022)**: Introduction to NAT Gateway
+
+* **Day 33 (09/02/2022)**: On Demand Hibernate
+
+* **Day 34 (09/03/2022)**: Terraform Pipeline using Jenkins
+
+* **Day 35 (09/04/2022)**: AWS S3 Intelligent-Tiering (S3 INT)
+
+* **Day 36 (09/05/2022)**: Introduction to AWS System Manager
+
+* **Day 37 (09/06/2022)**: Automate the Process of AMI Creation using System Manager Maintenance Windows
+
+* **Day 38 (09/07/2022)**: Introduction to Transit Gateway
+
+
+
+
+
+
+
 
