@@ -1,5 +1,17 @@
+provider "aws" {
+  region = "us-west-2"
+}
+
+resource "aws_iam_user" "my-user" {
+  name = "my-test-user"
+}
+
+resource "aws_iam_policy" "t2-instance-restricition-policy" {
+  name = "t2-instance-restricition-policy"
+
+  policy = <<EOF
 {
-    "Version": "2012-10-17",
+"Version": "2012-10-17",
     "Statement": [
         {
             "Sid": "VisualEditor0",
@@ -146,4 +158,11 @@
             "Resource": "*"
         }
     ]
+}
+EOF
+}
+
+resource "aws_iam_user_policy_attachment" "attach-policy" {
+  policy_arn = "${aws_iam_policy.t2-instance-restricition-policy.arn}"
+  user      = "${aws_iam_user.my-user.name}"
 }
