@@ -1,0 +1,8 @@
+{
+  "post-processors": [
+    [
+      "compress",
+      { "type": "upload", "endpoint": "http://example.com" }
+    ]
+  ]
+}
