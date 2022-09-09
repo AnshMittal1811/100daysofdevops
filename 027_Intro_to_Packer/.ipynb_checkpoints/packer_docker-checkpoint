@@ -1,7 +1,0 @@
- {
-  "builders": [{
-    "type": "docker",
-    "image": "centos:latest",
-    "export_path": "mytest.tar"
-  }]
-    }
