@@ -1,0 +1,20 @@
+ {
+  "builders": [{
+    "type": "amazon-ebs",
+    "region": "us-west-2",
+    "source_ami": "ami-01ed306a12b7d1c96",
+    "instance_type": "t2.micro",
+    "ssh_username": "centos",
+    "ami_name": "centos-packer-example-1.0"
+  }],
+  "provisioners": [
+    {
+    "type": "shell",
+    "script": "ansible.sh"
+    },
+      {
+    "type": "ansible-local",
+    "playbook_file": "./playbook.yml"
+    }
+    ]
+  }
