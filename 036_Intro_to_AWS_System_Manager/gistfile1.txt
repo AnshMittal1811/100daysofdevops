@@ -1,0 +1,64 @@
+# SSM Agent Installation
+
+sudo yum install -y https://s3.amazonaws.com/ec2-downloads-windows/SSMAgent/latest/linux_amd64/amazon-ssm-agent.rpm
+Loaded plugins: fastestmirror
+amazon-ssm-agent.rpm                                                                                                                                                                 |  19 MB  00:00:03     
+Examining /var/tmp/yum-root-VVJ_i7/amazon-ssm-agent.rpm: amazon-ssm-agent-2.3.479.0-1.x86_64
+Marking /var/tmp/yum-root-VVJ_i7/amazon-ssm-agent.rpm to be installed
+Resolving Dependencies
+--> Running transaction check
+---> Package amazon-ssm-agent.x86_64 0:2.3.479.0-1 will be installed
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+============================================================================================================================================================================================================
+ Package                                             Arch                                      Version                                           Repository                                            Size
+============================================================================================================================================================================================================
+Installing:
+ amazon-ssm-agent                                    x86_64                                    2.3.479.0-1                                       /amazon-ssm-agent                                     60 M
+
+Transaction Summary
+============================================================================================================================================================================================================
+Install  1 Package
+
+Total size: 60 M
+Installed size: 60 M
+Downloading packages:
+Running transaction check
+Running transaction test
+Transaction test succeeded
+Running transaction
+  Installing : amazon-ssm-agent-2.3.479.0-1.x86_64                                                                                                                                                      1/1 
+Created symlink from /etc/systemd/system/multi-user.target.wants/amazon-ssm-agent.service to /etc/systemd/system/amazon-ssm-agent.service.
+  Verifying  : amazon-ssm-agent-2.3.479.0-1.x86_64                                                                                                                                                      1/1 
+
+Installed:
+  amazon-ssm-agent.x86_64 0:2.3.479.0-1                                                                                                                                                                     
+
+Complete!
+
+# Checking the status of System Manager
+
+[root@ip-172-31-29-138 ~]# sudo systemctl status amazon-ssm-agent
+● amazon-ssm-agent.service - amazon-ssm-agent
+   Loaded: loaded (/etc/systemd/system/amazon-ssm-agent.service; enabled; vendor preset: disabled)
+   Active: active (running) since Sun 2019-03-17 17:55:48 UTC; 5s ago
+ Main PID: 4091 (amazon-ssm-agen)
+   CGroup: /system.slice/amazon-ssm-agent.service
+           └─4091 /usr/bin/amazon-ssm-agent
+
+Mar 17 17:55:51 ip-172-31-29-138.us-west-2.compute.internal amazon-ssm-agent[4091]: 2019-03-17 17:55:49 INFO [StartupProcessor] Write to serial port: Amazon SSM Agent v2.3.479.0 is running
+Mar 17 17:55:51 ip-172-31-29-138.us-west-2.compute.internal amazon-ssm-agent[4091]: 2019-03-17 17:55:49 INFO [StartupProcessor] Write to serial port: OsProductName: CentOS Linux
+Mar 17 17:55:51 ip-172-31-29-138.us-west-2.compute.internal amazon-ssm-agent[4091]: 2019-03-17 17:55:49 INFO [StartupProcessor] Write to serial port: OsVersion: 7
+Mar 17 17:55:51 ip-172-31-29-138.us-west-2.compute.internal amazon-ssm-agent[4091]: 2019-03-17 17:55:49 INFO [MessageGatewayService] Opening websocket connection to: %!(EXTRA string=wss://ssmm...am=input)
+Mar 17 17:55:52 ip-172-31-29-138.us-west-2.compute.internal amazon-ssm-agent[4091]: 2019-03-17 17:55:49 INFO [MessageGatewayService] Successfully opened websocket connection to: %!(EXTRA strin...am=input)
+Mar 17 17:55:52 ip-172-31-29-138.us-west-2.compute.internal amazon-ssm-agent[4091]: 2019-03-17 17:55:49 INFO [MessageGatewayService] Starting receiving message from control channel
+Mar 17 17:55:52 ip-172-31-29-138.us-west-2.compute.internal amazon-ssm-agent[4091]: 2019-03-17 17:55:49 INFO [MessageGatewayService] Successfully created ssm-user
+Mar 17 17:55:52 ip-172-31-29-138.us-west-2.compute.internal amazon-ssm-agent[4091]: 2019-03-17 17:55:49 INFO [MessageGatewayService] Successfully created file /etc/sudoers.d/ssm-agent-users
+Mar 17 17:55:52 ip-172-31-29-138.us-west-2.compute.internal amazon-ssm-agent[4091]: 2019-03-17 17:55:49 INFO [MessageGatewayService] Successfully changed mode of /etc/sudoers.d/ssm-agent-users to 288
+Mar 17 17:55:52 ip-172-31-29-138.us-west-2.compute.internal amazon-ssm-agent[4091]: 2019-03-17 17:55:49 INFO [MessageGatewayService] [EngineProcessor] Initial processing
+Hint: Some lines were ellipsized, use -l to show in full.
+
+# Enabling it so that it will start on reboot
+[root@ip-172-31-29-138 ~]# sudo systemctl enable amazon-ssm-agent
