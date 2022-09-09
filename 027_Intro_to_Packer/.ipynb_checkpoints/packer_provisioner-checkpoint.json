@@ -1,0 +1,6 @@
+    "provisioners": [
+        {
+            "type": "shell",
+            "script": "./example.sh"
+        }
+    ]
