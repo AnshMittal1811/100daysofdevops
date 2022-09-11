@@ -1,0 +1,6 @@
+September 8, 2021: Amazon Elasticsearch Service has been renamed to Amazon OpenSearch Service. See details.
+
+We have many customers who own and operate Elasticsearch, Logstash, and Kibana (ELK) stacks to load and visualize Apache web logs, among other log types. Amazon Elasticsearch Service provides Elasticsearch and Kibana in the AWS Cloud in a way that’s easy to set up and operate. Amazon Kinesis Firehose provides reliable, serverless delivery of Apache web logs (or other log data) to Amazon Elasticsearch Service.
+
+With Firehose, you can add an automatic call to an AWS Lambda function to transform records within Firehose. With these two technologies, you have an effective, easy-to-manage replacement for your existing ELK stack.
+
