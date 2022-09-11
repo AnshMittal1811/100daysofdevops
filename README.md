@@ -38,47 +38,47 @@
 
 * **Day 19 (08/19/2022)**: [Application Load Balancer using Terraform](https://github.com/AnshMittal1811/100daysofdevops/tree/main/019_Application_Load_Balancer_using_Terraform)
 
-* **Day 20 (08/20/2022)**: Auto-Scaling Group using Terraform(https://github.com/AnshMittal1811/100daysofdevops/tree/main/020_Autoscaling_Group_using_Terraform)
+* **Day 20 (08/20/2022)**: [Auto-Scaling Group using Terraform](https://github.com/AnshMittal1811/100daysofdevops/tree/main/020_Autoscaling_Group_using_Terraform)
 
-* **Day 21 (08/21/2022)**: MySQL RDS Database Creation using Terraform(https://github.com/AnshMittal1811/100daysofdevops/tree/main/021_MySQL_RDS_Database_Creation_using_Terraform)
+* **Day 21 (08/21/2022)**: [MySQL RDS Database Creation using Terraform](https://github.com/AnshMittal1811/100daysofdevops/tree/main/021_MySQL_RDS_Database_Creation_using_Terraform)
 
-* **Day 22 (08/22/2022)**: Introduction to Key Management Service (KMS)(https://github.com/AnshMittal1811/100daysofdevops/tree/main/022_Intro_to_KMS)
+* **Day 22 (08/22/2022)**: [Introduction to Key Management Service (KMS)](https://github.com/AnshMittal1811/100daysofdevops/tree/main/022_Intro_to_KMS)
 
-* **Day 23 (08/23/2022)**: How to encrypt EBS volume using KMS
+* **Day 23 (08/23/2022)**: [How to encrypt EBS volume using KMS](https://github.com/AnshMittal1811/100daysofdevops/tree/main/023_Encrypting_EBS_Volume_using_KMS)
 
-* **Day 24 (08/24/2022)**: How to encrypt S3 bucket using KMS
+* **Day 24 (08/24/2022)**: [How to encrypt S3 bucket using KMS](https://github.com/AnshMittal1811/100daysofdevops/tree/main/024_Encrypting_S3_Bucket_using_KMS)
 
-* **Day 25 (08/25/2022)**: AWS S3 Bucket using Terraform
+* **Day 25 (08/25/2022)**: [AWS S3 Bucket using Terraform](https://github.com/AnshMittal1811/100daysofdevops/tree/main/025_AWS_S3_Bucket_using_Terraform)
 
-* **Day 26 (08/26/2022)**: Introduction to IAM
+* **Day 26 (08/26/2022)**: [Introduction to IAM](https://github.com/AnshMittal1811/100daysofdevops/tree/main/026_Intro_to_IAM)
 
-* **Day 27 (08/27/2022)**: Introduction to Packer
+* **Day 27 (08/27/2022)**: [Introduction to Packer](https://github.com/AnshMittal1811/100daysofdevops/tree/main/027_Intro_to_Packer)
 
-* **Day 28 (08/28/2022)**: Introduction to VPC Flow Logs
+* **Day 28 (08/28/2022)**: [Introduction to VPC Flow Logs](https://github.com/AnshMittal1811/100daysofdevops/tree/main/028_Intro_to_VPC_Flow_Logs)
 
-* **Day 29 (08/29/2022)**: Introduction to RDS - MySQL
+* **Day 29 (08/29/2022)**: [Introduction to RDS - MySQL](https://github.com/AnshMittal1811/100daysofdevops/tree/main/029_Intro_to_RDS_MySQL)
 
-* **Day 30 (08/30/2022)**: Introduction to AWS CLI
+* **Day 30 (08/30/2022)**: [Introduction to AWS CLI](https://github.com/AnshMittal1811/100daysofdevops/tree/main/030_Intro_to_AWS_CLI)
 
-* **Day 31 (08/31/2022)**: Introduction to VPC Peering
+* **Day 31 (08/31/2022)**: [Introduction to VPC Peering](https://github.com/AnshMittal1811/100daysofdevops/tree/main/031_Intro_to_VPC_Peering)
 
-* **Day 32 (09/01/2022)**: Introduction to NAT Gateway
+* **Day 32 (09/01/2022)**: [Introduction to NAT Gateway](https://github.com/AnshMittal1811/100daysofdevops/tree/main/032_Intro_to_NAT_Gateway)
 
-* **Day 33 (09/02/2022)**: On Demand Hibernate
+* **Day 33 (09/02/2022)**: [On Demand Hibernate](https://github.com/AnshMittal1811/100daysofdevops/tree/main/033_On_Demand_Hibernate)
 
-* **Day 34 (09/03/2022)**: Terraform Pipeline using Jenkins
+* **Day 34 (09/03/2022)**: [Terraform Pipeline using Jenkins](https://github.com/AnshMittal1811/100daysofdevops/tree/main/034_Terraform_Pipeline_using_Jenkins)
 
-* **Day 35 (09/04/2022)**: AWS S3 Intelligent-Tiering (S3 INT)
+* **Day 35 (09/04/2022)**: [AWS S3 Intelligent-Tiering (S3 INT)](https://github.com/AnshMittal1811/100daysofdevops/tree/main/035_AWS_S3_Intelligent_Tiering_S3_INT)
 
-* **Day 36 (09/05/2022)**: Introduction to AWS System Manager
+* **Day 36 (09/05/2022)**: [Introduction to AWS System Manager](https://github.com/AnshMittal1811/100daysofdevops/tree/main/036_Intro_to_AWS_System_Manager)
 
-* **Day 37 (09/06/2022)**: Automate the Process of AMI Creation using System Manager Maintenance Windows
+* **Day 37 (09/06/2022)**: [Automate the Process of AMI Creation using System Manager Maintenance Windows](https://github.com/AnshMittal1811/100daysofdevops/tree/main/037_Automating_AMI_Creation_using_System_Manager)
 
-* **Day 38 (09/07/2022)**: Introduction to Transit Gateway
+* **Day 38 (09/07/2022)**: [Introduction to Transit Gateway](https://github.com/AnshMittal1811/100daysofdevops/tree/main/038_Intro_to_Transit_Gateway)
 
-* **Day 39 (09/08/2022)**: Introduction to VPC EndPoint
+* **Day 39 (09/08/2022)**: [Introduction to VPC EndPoint](https://github.com/AnshMittal1811/100daysofdevops/tree/main/039_Intro_to_VPC_Endpoint)
 
-* **Day 40 (09/09/2022)**: Introduction to AWS Config
+* **Day 40 (09/09/2022)**: [Introduction to AWS Config](https://github.com/AnshMittal1811/100daysofdevops/tree/main/040_Intro_to_AWS_Config)
 
 * **Day 41 (09/10/2022)**: 
 
