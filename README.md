@@ -80,11 +80,11 @@
 
 * **Day 40 (09/09/2022)**: [Introduction to AWS Config](https://github.com/AnshMittal1811/100daysofdevops/tree/main/040_Intro_to_AWS_Config)
 
-* **Day 41 (09/10/2022)**: [Real-Time Apache Log Analysis using Amazon Kinesis and Amazon Elasticsearch Service]()
+* **Day 41 (09/10/2022)**: [Real-Time Apache Log Analysis using Amazon Kinesis and Amazon Elasticsearch Service](https://github.com/AnshMittal1811/100daysofdevops/tree/main/041_Realtime_Apache_Log_Analysis_using_Amazon_Kinesis_n_Elasticsearch_Service)
 
-* **Day 42 (09/11/2022)**: [Audit your AWS Environment]()
+* **Day 42 (09/11/2022)**: [Audit your AWS Environment](https://github.com/AnshMittal1811/100daysofdevops/tree/main/042_Auditing_AWS_Environment)
 
-* **Day 43 (09/12/2022)**: [Introduction to EC2]()
+* **Day 43 (09/12/2022)**: [Introduction to EC2](https://github.com/AnshMittal1811/100daysofdevops/tree/main/043_Intro_to_EC2)
 
 * **Day 44 (09/13/2022)**:
 
