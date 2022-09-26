@@ -1,0 +1,7 @@
+[ec2-user@ip-10-0-1-81 ~]$ sudo mount -t nfs4 -o nfsvers=4.1,rsize=1048576,wsize=1048576,hard,timeo=600,retrans=2,noresvport fs-0b988ba3.efs.us-west-2.amazonaws.com:/ /mnt
+[ec2-user@ip-10-0-1-81 ~]$ df -TH
+Filesystem                                Type      Size  Used Avail Use% Mounted on
+devtmpfs                                  devtmpfs  507M   66k  506M   1% /dev
+tmpfs                                     tmpfs     517M     0  517M   0% /dev/shm
+/dev/xvda1                                ext4      8.4G  1.5G  6.8G  18% /
+fs-0b988ba3.efs.us-west-2.amazonaws.com:/ nfs4      9.3E     0  9.3E   0% /mnt
