@@ -86,34 +86,55 @@
 
 * **Day 43 (09/12/2022)**: [Introduction to EC2](https://github.com/AnshMittal1811/100daysofdevops/tree/main/043_Intro_to_AWS_EC2)
 
-* **Day 44 (09/13/2022)**:
+* **Day 44 (09/13/2022)**: [S3 Cross Region Replication (CRR)](https://github.com/AnshMittal1811/100daysofdevops/tree/main/044_S3_Cross_Region_Replication_CRR)
 
-* **Day 45 (09/14/2022)**:
+* **Day 45 (09/14/2022)**: [Simple Backup Solution using S3, Glacier, and VPC Endpoint](https://github.com/AnshMittal1811/100daysofdevops/tree/main/045_Simple_Backup_Solution_S3_Glacier_VPC_Endpoint)
 
-* **Day 46 (09/15/2022)**: 
+* **Day 46 (09/15/2022)**: [Introduction to Amazon Glacier](https://github.com/AnshMittal1811/100daysofdevops/tree/main/046_Intro_to_Amazon_Glacier)
 
-* **Day 47 (09/16/2022)**: 
+* **Day 47 (09/16/2022)**: [Introduction to Amazon Elastic File System](https://github.com/AnshMittal1811/100daysofdevops/tree/main/047_Intro_to_Amazon_EFS)
 
-* **Day 48 (09/17/2022)**:
+* **Day 48 (09/17/2022)**: [Threat Detection and Mitigation at AWS](https://github.com/AnshMittal1811/100daysofdevops/tree/main/048_Threat_Detection_and_mitigation_at_AWS)
+Introduction to Route53](https://github.com/AnshMittal1811/100daysofdevops/tree/main/049_Intro_to_Route53)
 
-* **Day 49 (09/18/2022)**:
+* **Day 50 (09/19/2022)**: [Introduction to Route53 Failover](https://github.com/AnshMittal1811/100daysofdevops/tree/main/050_Intro_to_Route53Failover)
 
-* **Day 50 (09/19/2022)**:
+* **Day 51 (09/20/2022)**: [Introduction to Bash Scripting](https://github.com/AnshMittal1811/100daysofdevops/tree/main/051_Intro_to_Bash_Scripting)
 
-* **Day 51 (09/20/2022)**:
+* **Day 52 (09/21/2022)**: [Conditional Testing inn Shell](https://github.com/AnshMittal1811/100daysofdevops/tree/main/052_Conditional_Testing_in_Shell)
 
-* **Day 52 (09/21/2022)**:
+* **Day 53 (09/22/2022)**: [Introduction to Regular Expression Part I](https://github.com/AnshMittal1811/100daysofdevops/tree/main/053_Intro_to_Regular_Expression_Part_I)
 
-* **Day 53 (09/22/2022)**:
+* **Day 54 (09/23/2022)**: [And you thought you knew RPM](https://github.com/AnshMittal1811/100daysofdevops/tree/main/054_RPM_Intro)
 
-* **Day 54 (09/23/2022)**:
+* **Day 55 (09/24/2022)**: [Introduction to YUM](https://github.com/AnshMittal1811/100daysofdevops/tree/main/055_Intro_to_YUM)
 
-* **Day 55 (09/24/2022)**:
+* **Day 56 (09/25/2022)**: [Debugging Performance Issue Using SAR](https://github.com/AnshMittal1811/100daysofdevops/tree/main/056_Debugging_Performance_Issue_using_SAR)
 
+* **Day 57 (09/26/2022)**: [Debugging I/O Performance Issue](https://github.com/AnshMittal1811/100daysofdevops/tree/main/057_Debugging_IO_Performance_Issue)
 
+* **Day 58 (09/27/2022)**: [Docker Basics](https://github.com/AnshMittal1811/100daysofdevops/tree/main/058_Docker_Basics)
 
+* **Day 59 (09/28/2022)**: [Introduction to DockerFile](https://github.com/AnshMittal1811/100daysofdevops/tree/main/059_Intro_to_DockerFile)
 
+* **Day 60 (09/29/2022)**: []()
 
+* **Day 61 (09/30/2022)**: []()
 
+* **Day 62 (10/01/2022)**: []()
 
+* **Day 63 (10/02/2022)**: []()
 
+* **Day 64 (10/03/2022)**: []()
+
+* **Day 65 (10/04/2022)**: []()
+
+* **Day 66 (10/05/2022)**: []()
+
+* **Day 67 (10/06/2022)**: []()
+
+* **Day 68 (09/07/2022)**: []()
+
+* **Day 69 (10/08/2022)**: []()
+
+* **Day 70 (10/09/2022)**: []()
